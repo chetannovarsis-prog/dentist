@@ -46,10 +46,10 @@ export const TrustSection = () => {
   ]
 
   const logos = [
-    'https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/IBM_logo.svg/1024px-IBM_logo.svg.png',
-    'https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/1024px-Google_2015_logo.svg.png',
-    'https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Apple_logo_black.svg/800px-Apple_logo_black.svg.png',
-    'https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/H_and_M-Logo.svg/1024px-H_and_M-Logo.svg.png'
+    'https://abconeprod.azureedge.net/-/media/ABCCorp/data/media/img/newlogo.webp?extension=webp&revision=ab7ba059-c4d3-477e-a7d0-9a24f48204d6&modified=20250402160608',
+    'https://novarsistech.com/static/media/logonavoarsis.0eae3c961c002ab6de00.jpeg',
+    'https://a-cf65.ch-static.com/content/dam/cf-consumer-healthcare/sensodyne-v3/en_IN/homepage1/sensodyne_logo.webp',
+    'https://synques-cdn.s3.ap-south-1.amazonaws.com/topntown.in/images/top-n-town.png'
   ]
 
   return (
@@ -80,7 +80,7 @@ export const TrustSection = () => {
             <p className="text-primary/40 text-sm font-medium uppercase tracking-[0.3em] mb-12">
               Insurance Partners & Affiliations
             </p>
-            <div className="flex flex-wrap justify-center items-center gap-12 md:gap-24 opacity-30 grayscale hover:grayscale-0 transition-all duration-700">
+            <div className="flex flex-wrap justify-center items-center gap-12 md:gap-24 opacity-60 hover:opacity-100 transition-all duration-700">
               {logos.map((logo, i) => (
                 <img 
                   key={i} 

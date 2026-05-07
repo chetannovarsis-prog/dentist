@@ -72,11 +72,11 @@ function App() {
   }, [])
 
   return (
-    <main className="relative min-h-screen">
+    <main className="relative min-h-screen overflow-x-hidden">
       <LoadingScreen />
       <Navbar />
       <Hero />
-      <div id="content-reveal">
+      <div id="content-reveal" className="overflow-x-hidden">
         <TrustSection />
         <Services />
         <AboutDoctor />

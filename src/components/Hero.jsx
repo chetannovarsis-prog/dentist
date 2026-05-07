@@ -74,7 +74,7 @@ export const Hero = () => {
           initial={{ opacity: 0, y: 40 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1, delay: 0.7, ease: [0.22, 1, 0.36, 1] }}
-          className="text-5xl md:text-8xl font-heading text-white max-w-5xl leading-[1.1] text-balance mb-8"
+          className="text-4xl md:text-8xl font-heading text-white max-w-5xl leading-[1.1] text-balance mb-8"
         >
           Because There’s a Better Way to <span className="italic text-accent">Experience</span> Dental Care
         </motion.h1>

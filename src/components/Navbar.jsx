@@ -38,15 +38,15 @@ export const Navbar = () => {
           isScrolled ? "glass px-8 py-3 shadow-lg" : "px-4"
         )}
       >
-        <div className="flex items-center gap-2 group cursor-pointer">
-          <div className="w-10 h-10 bg-primary rounded-full flex items-center justify-center text-white font-heading text-xl transition-transform group-hover:rotate-12">
+        <div className="flex items-center gap-1.5 md:gap-2 group cursor-pointer">
+          <div className="w-8 h-8 md:w-10 md:h-10 bg-primary rounded-full flex items-center justify-center text-white font-heading text-lg md:text-xl transition-transform group-hover:rotate-12">
             R
           </div>
           <span className={cn(
-            "font-heading text-xl tracking-tight transition-colors duration-300",
+            "font-heading text-lg md:text-xl tracking-tight transition-colors duration-300",
             isScrolled ? "text-primary" : "text-primary md:text-white"
           )}>
-            Relaxation <span className="font-light italic text-accent">Dental</span>
+            Relaxation <span className="font-light italic text-accent hidden xs:inline">Dental</span>
           </span>
         </div>
 

@@ -31,13 +31,13 @@ const services = [
     title: "Root Canal",
     description: "Pain-free endodontic therapy to save your natural teeth and relieve discomfort.",
     icon: <Heart className="w-8 h-8" />,
-    image: "https://images.unsplash.com/photo-1516062423079-7ca13cdc7f5a?auto=format&fit=crop&q=80&w=600"
+    image: "https://img.magnific.com/premium-photo/model-imitation-tooth-incision-with-caries-canals-treatment-hands-dentis_624677-122.jpg?ga=GA1.1.966530005.1777894812&semt=ais_hybrid&w=740&q=80"
   },
   {
     title: "Cosmetic Dentistry",
     description: "A comprehensive range of aesthetic treatments to enhance the beauty of your smile.",
     icon: <Shield className="w-8 h-8" />,
-    image: "https://images.unsplash.com/photo-1593022356769-11f09a79a5cc?auto=format&fit=crop&q=80&w=600"
+    image: "https://img.magnific.com/free-photo/dentist-examining-patient-s-teeth_1098-568.jpg?t=st=1778148783~exp=1778152383~hmac=dd75f7c5fde563f5accb7170cd6e93ace02ad8a20169687a9288fa46ec4ab5a0&w=1480"
   }
 ]
 

@@ -37,7 +37,7 @@ const features = [
 
 export const WhyChooseUs = () => {
   return (
-    <section className="py-32 bg-soft">
+    <section className="py-32 my-10 bg-soft">
       <div className="max-w-7xl mx-auto px-6">
         <div className="text-center mb-20">
           <motion.div

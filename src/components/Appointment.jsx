@@ -76,7 +76,7 @@ export const Appointment = () => {
               className="relative"
             >
               <div className="absolute -inset-4 bg-accent/10 rounded-[48px] blur-3xl -z-10" />
-              <div className="glass p-8 md:p-12 rounded-[40px] shadow-2xl">
+              <div className="glass p-6 md:p-12 rounded-[40px] shadow-2xl">
                 <AnimatePresence mode="wait">
                   {!isSubmitted ? (
                     <motion.form 

@@ -28,12 +28,13 @@
   --text: #111827;
 }
 
-html {
+html, body {
+  @apply overflow-x-hidden w-full;
   scroll-behavior: initial;
 }
 
 body {
-  @apply font-body bg-soft text-dark antialiased overflow-x-hidden;
+  @apply font-body bg-soft text-dark antialiased;
 }
 
 h1, h2, h3, h4, h5, h6 {
