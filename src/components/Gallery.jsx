@@ -5,9 +5,9 @@ const images = [
   { url: "https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?auto=format&fit=crop&q=80&w=800", title: "Smile Design" },
   { url: "https://images.unsplash.com/photo-1598256989800-fe5f95da9787?auto=format&fit=crop&q=80&w=800", title: "Cosmetic Veneers" },
   { url: "https://images.unsplash.com/photo-1606811841689-23dfddce3e95?auto=format&fit=crop&q=80&w=800", title: "Full Reconstruction" },
-  { url: "https://images.unsplash.com/photo-1516062423079-7ca13cdc7f5a?auto=format&fit=crop&q=80&w=800", title: "Teeth Whitening" },
+  { url: "https://img.magnific.com/free-photo/cheerful-adorable-young-woman-showing-perfect-white-smile_176420-25413.jpg?ga=GA1.1.966530005.1777894812&semt=ais_hybrid&w=740&q=80", title: "Teeth Whitening" },
   { url: "https://images.unsplash.com/photo-1629909613654-28e377c37b09?auto=format&fit=crop&q=80&w=800", title: "Orthodontics" },
-  { url: "https://images.unsplash.com/photo-1593022356769-11f09a79a5cc?auto=format&fit=crop&q=80&w=800", title: "Dental Wellness" }
+  { url: "https://img.magnific.com/premium-photo/happy-thumbs-up-portrait-dentist-patient-teeth-whitening-service-dental-care-healthcare-dentistry-hand-sign-orthodontist-woman-oral-hygiene-wellness-cleaning_590464-182892.jpg?ga=GA1.1.966530005.1777894812&semt=ais_hybrid&w=740&q=80", title: "Dental Wellness" }
 ]
 
 export const Gallery = () => {
